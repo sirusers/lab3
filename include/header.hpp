@@ -1,7 +1,7 @@
 // Copyright 2021 siruser agamesok@gmail.com
 
-#ifndef TEMPLATE_HEADER_HPP
-#define TEMPLATE_HEADER_HPP
+#ifndef INCLUDE_HEADER_HPP_
+#define INCLUDE_HEADER_HPP_
 #include <stdexcept>
 #include <atomic>
 #include <vector>
@@ -130,4 +130,4 @@ class SharedPtr {
   std::atomic_uint* counter;
 };
 
-#endif  // TEMPLATE_HEADER_HPP
+#endif  // INCLUDE_HEADER_HPP_
